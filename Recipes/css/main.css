@@ -1,0 +1,46 @@
+a { color: #FF0000; } 
+a:hover {   background-color: yellow; }
+
+img {   border: 1px solid rgb(179, 213, 226);   padding: 5px }
+
+
+ul li {color:rgb(79, 33, 204)
+
+}
+#last_li{
+        color:black;
+}
+h1{color:blue;
+    background-color:pink;}
+
+ul li:hover{background-color:aqua;
+        color:brown;
+    }
+
+.boring_text {   border: 5px outset red;   background-color: lightblue;   text-align: center; }
+
+.Recipe_Ingredients{border: 5px outset rgb(111, 214, 133);   background-color: rgb(240, 234, 234);   text-align: left; }
+
+.Recipe_Ingredients ul{     margin: 30;     padding: 0;     list-style-type:circle;     height: 40%; }
+
+.Recipe_Instructions{ border: 5px outset rgb(172, 64, 145);   background-color: rgb(232, 241, 207);   text-align: left;}
+
+.menu_header li {
+    list-style-type: none;
+    display: inline-block;
+    width: 30%;
+    background-color: skyblue;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+}
+
+.menu_header { text-align: center;}
+
+.webpage {background-color: aqua;}
+
+.other_links {background-color: burlywood;}
+
+h1 {   text-align: center; }
+
+@media only screen and (max-width: 600px) {   body {     	font-style: italic;   } }
